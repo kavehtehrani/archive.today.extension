@@ -9,6 +9,8 @@ A simple Chrome extension that makes it easy to open/archive web pages using arc
 
 ![Screenshot](./images/context_menu.png)
 
+One of the simplest possible extensions in less than 40 lines of code.
+
 ## How it works
 
 - Removes URL parameters (tracking codes, etc.) before archiving
