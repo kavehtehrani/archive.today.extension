@@ -7,6 +7,8 @@ A simple Chrome extension that makes it easy to open/archive web pages using arc
 - **Right-click menu**: Right-click on any link and select "Send to archive.is" to archive that link in a background tab
 - **Extension icon**: Click the extension icon to archive the current page in the same tab
 
+![Screenshot](./images/context_menu.png)
+
 ## How it works
 
 - Removes URL parameters (tracking codes, etc.) before archiving
@@ -25,8 +27,7 @@ This extension does not collect any data or violate users' privacy in any way:
 
 - No user data is collected, stored, or transmitted
 - No analytics or tracking code is included
-- All processing happens locally in your browser
-- The extension only interacts with the archive.is service when you explicitly request it
+- Everything happens locally in your browser
 
 ## License
 
