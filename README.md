@@ -1,10 +1,10 @@
-# Send to archive.is
+# Send to archive.today
 
-A simple Chrome extension that makes it easy to open/archive web pages using archive.is.
+A simple Chrome extension that makes it easy to open/archive web pages using archive.today.
 
 ## Features
 
-- **Right-click menu**: Right-click on any link and select "Send to archive.is" to archive that link in a background tab
+- **Right-click menu**: Right-click on any link and select "Send to archive.today" to archive that link in a background tab
 - **Extension icon**: Click the extension icon to archive the current page in the same tab
 
 ![Screenshot](./images/context_menu.png)

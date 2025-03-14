@@ -2,7 +2,7 @@
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     id: "sendToArchive",
-    title: "Send to archive.is",
+    title: "Send to archive.today",
     contexts: ["link"],
   });
 });
@@ -11,12 +11,11 @@ function createArchiveUrl(url) {
   // Remove URL parameters (anything after '?'), usually telemetry
   url = url.split("?")[0];
 
-  // Create and return the archive.is submission URL
   return `https://archive.is/submit/?url=${encodeURIComponent(url)}`;
 }
 
 // Handle context menu click
-chrome.contextMenus.onClicked.addListener((info, tab) => {
+chrome.contextMenus.onClicked.addListener((info) => {
   if (info.menuItemId === "sendToArchive" && info.linkUrl) {
     const archiveUrl = createArchiveUrl(info.linkUrl);
 
