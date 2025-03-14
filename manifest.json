@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Send to archive.today",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Right-click on links to send them to archive.today",
   "permissions": ["contextMenus", "activeTab", "tabs"],
   "background": {
